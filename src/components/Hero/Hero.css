@@ -1,0 +1,26 @@
+.hero-heading{
+    font-size: 96px;
+    margin-bottom: 24px;
+}
+.hero-subheading{
+    font-size: 48px;
+    font-weight: 600;
+}
+.secondary{
+    
+    border-radius: 16px;
+    border: 1px solid black;
+    color: black;
+    padding: 16px 24px;
+    background-color: transparent;
+    margin-right: 24px;
+
+}
+.primary-hero{
+    border-radius: 16px;
+    border: none;
+    background-color: #E63946;
+    color: white;
+    padding:16px 24px;
+    cursor: pointer;
+}

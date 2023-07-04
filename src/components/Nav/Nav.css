@@ -1,0 +1,31 @@
+nav{
+    display: flex;
+    
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    margin: 48px;
+}
+.nav-link{
+    list-style: none;
+    margin-right: 64px;
+}
+.active{
+    font-weight: bold;
+    color: #E63946;
+}
+.nav-btn{
+    border-radius: 16px;
+    border: none;
+    background-color: #E63946;
+    color: white;
+    padding:16px 24px;
+    cursor: pointer;
+}
+.logo{
+    margin: 48px;
+}
