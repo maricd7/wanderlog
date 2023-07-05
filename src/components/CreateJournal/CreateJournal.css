@@ -1,0 +1,27 @@
+.create-container{
+    margin-left: 48px;
+   
+}
+
+.icon{
+    width: 48px;
+    height: 48px;
+    margin-right: 24px;
+    align-self: center;
+}
+.create-heading{
+    font-size: 48px;
+
+}
+.heading-div{
+
+    display: flex;
+    align-items: center;
+   
+    
+}
+.input-div{
+    display: flex;
+    flex-direction: column;
+    
+}

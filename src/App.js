@@ -1,16 +1,21 @@
-
 import './App.css';
 import Nav from './components/Nav/Nav';
 import Hero from './components/Hero/Hero';
-<script src="https://cdn.tailwindcss.com"></script>
-
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './components/Home/Home';
+import CreateJournal from './components/CreateJournal/CreateJournal';
 
 function App() {
   return (
-    <div className="App">
-      <Nav/>
-      <Hero/>
-    </div>
+    <Router>
+      <div className="App">
+        <Nav />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/create" element={<CreateJournal />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
