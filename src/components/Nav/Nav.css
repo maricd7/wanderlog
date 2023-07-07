@@ -1,9 +1,13 @@
 nav{
+    background-color: white;
+    z-index: 10;
     display: flex;
-    
     width: 100%;
     justify-content: space-between;
-   
+    padding: 0;
+    margin: 0;
+    height: 80px;
+   align-items: center;
 }
 .nav-links{
     display: flex;
@@ -27,5 +31,8 @@ nav{
     cursor: pointer;
 }
 .logo{
-    margin: 48px;
+   margin-left: 96px;
+   width: 220px;
+   height: 64px;
+   
 }

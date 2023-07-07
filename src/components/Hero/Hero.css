@@ -1,3 +1,16 @@
+.Hero{
+    background-image:url('/src/components/resources/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    
+   
+  }
+.hero-btns{
+    margin-top: 24px;
+}
+
 .hero-heading{
     font-size: 96px;
     margin-bottom: 24px;
@@ -5,6 +18,7 @@
 .hero-subheading{
     font-size: 48px;
     font-weight: 600;
+    margin-top: 24px;
 }
 .secondary{
     
@@ -14,7 +28,11 @@
     padding: 16px 24px;
     background-color: transparent;
     margin-right: 24px;
+    cursor: pointer;
 
+}
+.secondary :hover{
+    border: 1px solid #E63946;
 }
 .primary-hero{
     border-radius: 16px;
@@ -23,4 +41,7 @@
     color: white;
     padding:16px 24px;
     cursor: pointer;
+}
+.hero-container{
+    margin-top: 120px;
 }

@@ -8,8 +8,8 @@ import CreateJournal from './components/CreateJournal/CreateJournal';
 function App() {
   return (
     <Router>
-      <div className="App">
-        <Nav />
+      <div>
+       
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/create" element={<CreateJournal />} />
